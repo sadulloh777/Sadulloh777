@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap');
+}
+.header{
+    width: 1920px;
+    margin: 0 auto;
+    padding: 0 375px;
+    background-color: #1c1c1c;
+    color: white;
+}
+.nav{
+    width: 100%;
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    gap: 145px;
+}
+.nav ul li{
+    font-weight: 700;
+    font-size: 18px;
+    font-family: "Atkinson Hyperlegible Next", sans-serif;
+}
+.header-content{
+    display: flex; 
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.header-content_text h1{
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 17px 0;
+}
+.header-content_text h2{
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.header-content_text p{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.section{
+    background-color: #414141;
+    width: 1920px;height: 1847px;
+    margin: 0 auto;
+}
+.img2{
+    padding-top: 113px;
+    padding-left: 365px;
+}
+.h1{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-left: 826px;
+    padding-right: 826px;
+}
+.div{
+    text-align: center;
+    padding-top: 204px;
+    padding-left: 475px;
+    padding-right: 475px;
+    padding-bottom: 150px;
+}
+.footer{
+    width: 1920px;
+    height: 238px;
+    text-align: center;
+    background-color:#1c1c1c ;
+    margin: 0 auto;
+    padding-top: 50px;
+}
